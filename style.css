@@ -1,0 +1,141 @@
+      body {
+        padding: 10px;
+        min-width: 600px;
+        max-width: 1200px;
+        margin: auto;
+        height:100%;
+        font: 13px 'Roboto', sans-serif;
+      }
+      .header-section {
+        width: 100%;
+        margin-bottom: 0px;
+        margin: 0px;
+        padding: 0px;
+      }
+      .title-big {
+        font-size: 35px;
+        font-weight: 300;
+        text-align: center;
+        margin-bottom: 15px;
+      }
+      .title-sub{
+        text-align: center;
+        width: 100%;
+        line-height: 18px;
+        font-size: 12px;
+        color: #999;
+        margin-top: 2px;
+        top: -68px;
+      }
+      .directions-sub{
+        text-align: left;
+        width: 100%;
+        line-height: 18px;
+        font-size: 13px;
+        color: #000;
+        margin-top: 2px;
+        top: -68px;
+        margin-left:10px;
+        margin-bottom: 2px;
+      }
+      #chart {
+        height: 500px;
+        padding-top:10px;
+        padding-bottom:0px;
+        font: 13px 'Roboto', sans-serif;
+      }
+      .node rect {
+        fill-opacity: .8;
+        stroke-width: 0;
+      }
+   
+      .node text {
+        text-shadow: 0 1px 0 #ccc;
+        font: 15px 'Roboto', sans-serif;
+      }
+      .link {
+        fill: none;
+        stroke: #000;
+        stroke-opacity: .3;
+      }
+      .tooltip {
+        background-color: #f7f7f7;
+        padding: 3px 12px;
+        font: 12px 'Roboto', sans-serif;
+        border: 0px;
+        border-radius: 8px;
+        text-align: center;
+      }
+      .tooltip_body {
+        font: 12px 'Roboto', sans-serif;
+        margin: 5px 0;
+      } 
+      #legendContainer{
+        position:left;
+        top:160px;
+        height:100px;
+      }
+      #legend{
+        height:100px;
+        padding-left:15px;
+      }
+      .legend {
+          font-size: 12px;
+          font-weight: normal;
+          text-anchor: left;
+      }
+      .legendcheckbox{
+        cursor: pointer;
+
+      }
+      .resetbutton {
+        font-weight: 500;
+        background-color: #ccc;
+        color: black;
+        border-color: #ccc;
+        margin-right: 3px;
+        margin-left: 0px;
+        font-size: 10px;
+        font-weight: 500;
+        border-radius: 25px;
+        border: 1px solid #adadad;
+        padding: 3px 7px;
+        cursor: pointer;
+        box-shadow: none;
+        border: none;
+        background: #f1f1f1;
+        color: #4285F4;
+        font-weight: 300;
+        pointer-events: all;
+    }
+    .resetbutton:hover {
+    text-decoration: underline;
+    color: #124368;
+    background-color: #e8e8e8;
+}
+
+ .allbutton {
+        font-weight: 500;
+        background-color: #ccc;
+        color: black;
+        border-color: #ccc;
+        margin-right: 3px;
+        margin-left: 0px;
+        font-size: 10px;
+        font-weight: 500;
+        border-radius: 25px;
+        border: 1px solid #adadad;
+        padding: 3px 7px;
+        cursor: pointer;
+        box-shadow: none;
+        border: none;
+        background: #f1f1f1;
+        color: #4285F4;
+        font-weight: 300;
+        pointer-events: all;
+    }
+    .allbutton:hover {
+    text-decoration: underline;
+    color: #124368;
+    background-color: #e8e8e8;
+}
