@@ -46,7 +46,7 @@
       d3.csv("Olympics.csv", function(error, data) {
 
         // Reset selections
-        var CURR_SELECT = ["United States (US)", "United Kingdom (GB)", "Russia (RU)", "Germany (DE)", "Japan (JP)", "France (FR)", "South Korea (KR)"];
+        var CURR_SELECT = ["United States (US)", "Great Britain (GB)", "Russia (RU)", "Germany (DE)", "Japan (JP)", "France (FR)", "South Korea (KR)"];
         
         data2 = data.filter(function(d) {
             if(CURR_SELECT.indexOf(d.target) == -1) return false;
@@ -245,7 +245,7 @@
             })
 
           d3.select(".resetbutton").on("click", function() {
-            CURR_SELECT = ["United States (US)", "United Kingdom (GB)", "Russia (RU)", "Germany (DE)", "Japan (JP)", "France (FR)", "South Korea (KR)"];
+            CURR_SELECT = ["United States (US)", "Great Britain (GB)", "Russia (RU)", "Germany (DE)", "Japan (JP)", "France (FR)", "South Korea (KR)"];
 
             legend
               .attr("fill", function(d) {
@@ -305,8 +305,8 @@
 
           d3.select(".allbutton").on("click", function() {
             CURR_SELECT = ["Argentina (AR)", "Australia (AU)", "Brazil (BR)", "Canada (CA)", "Switzerland (CH)",
-              "Colombia (CO)", "Germany (DE)", "Spain (ES)", "France (FR)", "United Kingdom (GB)", "Hungary (HU)", 
-              "Iran (IR)", "Italy (IT)", "Japan (JP)", "South Korea (KR)", "Netherlands (NL)", "New Zealand (NZ)", 
+              "Colombia (CO)", "Germany (DE)", "Spain (ES)", "France (FR)", "Great Britain (GB)", "Hungary (HU)", 
+              "Iran (IR)", "Italy (IT)", "Japan (JP)", "South Korea (KR)", "Netherlands (NL)", "Denmark (DK)", "New Zealand (NZ)", 
               "Poland (PL)", "Russia (RU)", "Sweden (SE)", "Ukraine (UA)", "United States (US)", "South Africa (ZA)", 
               "Cuba (CU)", "Greece (GR)", "Croatia (HR)", "Jamaica (JM)", "Kazakhstan (KZ)", "Kenya (KE)", "Uzbekistan (UZ)"];
 
