@@ -107,14 +107,14 @@
         color: #4285F4;
         font-weight: 300;
         pointer-events: all;
-    }
-    .resetbutton:hover {
-    text-decoration: underline;
-    color: #124368;
-    background-color: #e8e8e8;
-}
+      }
+      .resetbutton:hover {
+        text-decoration: underline;
+        color: #124368;
+        background-color: #e8e8e8;
+       }
 
- .allbutton {
+      .allbutton {
         font-weight: 500;
         background-color: #ccc;
         color: black;
@@ -133,9 +133,28 @@
         color: #4285F4;
         font-weight: 300;
         pointer-events: all;
-    }
-    .allbutton:hover {
-    text-decoration: underline;
-    color: #124368;
-    background-color: #e8e8e8;
-}
+      }
+      .allbutton:hover {
+        text-decoration: underline;
+        color: #124368;
+        background-color: #e8e8e8;
+      }
+      .first-col{
+        float:left;
+        padding-bottom: 5px;
+        padding-top: 10px;
+        padding-left:10px;
+      }
+      .second-col{
+        float:right;
+        padding-bottom:5px;
+        padding-top:10px;
+        padding-right:10px;
+      }
+      .col-title {
+        line-height: 18px;
+        font-size: 12px;
+      }
+
+
+
